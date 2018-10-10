@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="addPublication" cloudDestinationProperty="addPublication" uiid="TextField" focusable="false" tensileDragEnabled="true" snapToGrid="false" flatten="false" scrollableX="true" layout="BoxLayout" boxLayoutAxis="X" title="Ajouter publication" >
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" focusable="true" rtl="false" snapToGrid="true" flatten="true" scrollableX="true" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Container" name="Container" cloudDestinationProperty="Container" focusable="true" scrollableX="true" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Label" name="Label" cloudDestinationProperty="Label" focusable="true" rtl="false" tensileDragEnabled="false" tactileTouch="false" snapToGrid="false" flatten="false" text="Titre" verticalAlignment="4" textPosition="3" >
+      </component>
+      <component type="TextField" name="TextField" cloudBoundProperty="text" cloudDestinationProperty="TextField" uiid="TextField" focusable="true" enabled="true" text="" >
+      </component>
+      <component type="Label" name="Label1" cloudDestinationProperty="Label1" focusable="true" text="Contenu" >
+      </component>
+      <component type="TextField" name="TextField1" cloudBoundProperty="text" cloudDestinationProperty="TextField1" uiid="TextField" focusable="true" rtl="true" text="" maxSize="124" rows="2" >
+      </component>
+      <component type="Label" name="Label2" cloudDestinationProperty="Label2" focusable="true" text="Image" >
+      </component>
+    </component>
+    <component type="Container" name="Container2" cloudDestinationProperty="Container2" focusable="true" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="TextField" name="TextField2" cloudBoundProperty="text" cloudDestinationProperty="TextField2" focusable="false" enabled="false" text="" >
+      </component>
+    </component>
+    <component type="Container" name="Container3" cloudDestinationProperty="Container3" focusable="true" >
+      <component type="Button" name="Button" cloudDestinationProperty="Button" focusable="true" text="..." >
+      </component>
+    </component>
+    <component type="Container" name="Container4" cloudDestinationProperty="Container4" focusable="true" layout="BoxLayout" boxLayoutAxis="X" >
+      <component type="Button" name="Button2" cloudDestinationProperty="Button2" focusable="true" text="Ajouter" >
+      </component>
+      <component type="Button" name="Button1" cloudDestinationProperty="Button1" focusable="true" text="Anuler" >
+      </component>
+    </component>
+  </component>
+</component>

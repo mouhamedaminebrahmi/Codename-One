@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="ajoutPublication" cloudDestinationProperty="ajoutPublication" layout="BoxLayout" boxLayoutAxis="Y" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Label" name="Label" cloudDestinationProperty="Label" text="Titre" >
+    </component>
+    <component type="TextField" name="titre" cloudBoundProperty="text" cloudDestinationProperty="TextField1" text="" >
+    </component>
+    <component type="Label" name="Label1" cloudDestinationProperty="Label1" text="Contenu" >
+    </component>
+    <component type="TextField" name="contenu" cloudBoundProperty="text" cloudDestinationProperty="TextField3" text="" >
+    </component>
+    <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Image" >
+    </component>
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" >
+    <component type="TextField" name="TextField" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="" >
+    </component>
+    <component type="Button" name="choisir" cloudDestinationProperty="Button" uiid="MouveButton" text="Choisir" >
+    </component>
+    <component type="ImageViewer" name="ImageViewer" cloudDestinationProperty="ImageViewer" >
+    </component>
+  </component>
+  <component type="Container" name="Container3" cloudDestinationProperty="Container3" >
+    <component type="Label" name="Label3" cloudDestinationProperty="Label3" text="Lien Video" >
+    </component>
+    <component type="TextField" name="video" cloudBoundProperty="text" cloudDestinationProperty="TextField2" text="" >
+    </component>
+  </component>
+  <component type="Container" name="Container2" cloudDestinationProperty="Container2" >
+    <component type="Button" name="submit" cloudDestinationProperty="Button2" uiid="MouveButton" text="Ajouter" >
+    </component>
+    <component type="Button" name="Button1" cloudDestinationProperty="Button1" uiid="MouveButton" text="Annuler" >
+    </component>
+  </component>
+</component>

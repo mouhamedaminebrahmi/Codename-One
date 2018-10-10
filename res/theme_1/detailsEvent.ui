@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="detailsEvent" cloudDestinationProperty="detailsEvent" scrollableY="false" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="D&#xe9;tails evenement" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="North" />
+    <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="LayeredLayout" >
+      <component type="ImageViewer" name="imageviewer" cloudDestinationProperty="ImageViewer" >
+        <custom name="image" />
+      </component>
+      <component type="Container" name="Container2" cloudDestinationProperty="Container2" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="4" >
+        <component type="Container" name="Container3" cloudDestinationProperty="Container3" layout="BoxLayout" boxLayoutAxis="Y" >
+          <component type="Label" name="Label11" cloudDestinationProperty="Label1" uiid="detailsEventTitle" text="Destination" icon="eventTitleUnderline2.png" gap="-40" verticalAlignment="2" textPosition="0" >
+          </component>
+          <component type="Label" name="Label1" cloudDestinationProperty="Label1" uiid="detailsEventSubtitle" text="Titre evenement" >
+          </component>
+        </component>
+      </component>
+    </component>
+  </component>
+  <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="titleFont" text="Camping a quelque part" >
+    <layoutConstraint value="Center" />
+  </component>
+  <custom name="titleUIID" type="java.lang.String" value="Title" />
+  <custom name="titleAreaUIID" type="java.lang.String" value="myToolbar" />
+</component>

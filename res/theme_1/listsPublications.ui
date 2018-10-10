@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="listsPublications" cloudDestinationProperty="listsPublications" layout="BoxLayout" boxLayoutAxis="Y" title="Lists des Publications" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" >
+  </component>
+</component>

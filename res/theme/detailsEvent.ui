@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="detailsEvent" cloudDestinationProperty="detailsEvent" scrollableY="false" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="D&#xe9;tails evenement" >
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+    <layoutConstraint value="North" />
+    <component type="Container" name="Container2" cloudDestinationProperty="Container2" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0" >
+      <layoutConstraint value="North" />
+      <component type="Label" name="titre" cloudDestinationProperty="titre" uiid="eventTitle" text="Label1" >
+      </component>
+    </component>
+    <component type="ImageViewer" name="imageviewer" cloudDestinationProperty="ImageViewer" >
+      <layoutConstraint value="Center" />
+      <custom name="image" />
+    </component>
+  </component>
+  <component type="Container" name="Container4" cloudDestinationProperty="Container4" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="Center" />
+    <component type="Container" name="Container51" cloudDestinationProperty="Container5" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0" >
+      <component type="Container" name="test" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="X" >
+        <component type="Label" name="destination" cloudDestinationProperty="Label3" uiid="eventInfos" focusable="false" text="50" icon="target.png" >
+        </component>
+        <component type="Label" name="distance" cloudDestinationProperty="Label3" uiid="eventInfos" focusable="false" text="50" icon="distance.png" >
+        </component>
+        <component type="Label" name="duree" cloudDestinationProperty="Label3" uiid="eventInfos" focusable="false" text="50" icon="tent.png" >
+        </component>
+      </component>
+    </component>
+    <component type="Container" name="Container5" cloudDestinationProperty="Container5" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0" >
+      <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="X" >
+        <component type="Label" name="date" cloudDestinationProperty="Label3" uiid="eventInfos" text="xx/yy/zz aa:bb:cc" icon="calendar.png" >
+        </component>
+        <component type="Label" name="places" cloudDestinationProperty="Label4" uiid="eventInfos" text="5" icon="hiker.png" >
+        </component>
+        <component type="Label" name="prix" cloudDestinationProperty="Label3" uiid="eventInfos" focusable="false" text="50" icon="banknote.png" >
+        </component>
+      </component>
+    </component>
+    <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="Label" text="Description" >
+    </component>
+    <component type="SpanLabel" name="description" cloudDestinationProperty="SpanLabel" >
+      <custom name="text" type="java.lang.String" value="lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum " />
+      <custom name="textUiid" type="java.lang.String" value="textSmall" />
+    </component>
+    <component type="Label" name="Label2" cloudDestinationProperty="Label" uiid="Label" text="R&#xe8;glement" >
+    </component>
+    <component type="SpanLabel" name="reglement" cloudDestinationProperty="reglement" >
+      <custom name="text" type="java.lang.String" value="lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum " />
+      <custom name="textUiid" type="java.lang.String" value="textSmall" />
+    </component>
+  </component>
+  <component type="Container" name="buttons" cloudDestinationProperty="Container6" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0" >
+    <layoutConstraint value="South" />
+    <component type="Button" name="participer" cloudDestinationProperty="Button2" uiid="buttonPrimary" text="Participer" icon="buy.png" >
+    </component>
+    <component type="Button" name="modifier" cloudDestinationProperty="Button1" uiid="buttonDelete" text="Modifier" icon="edit.png" >
+    </component>
+    <component type="Button" name="supprimer" cloudDestinationProperty="Button" uiid="delButton" text="Supprimer" icon="delete.png" >
+    </component>
+  </component>
+  <custom name="titleUIID" type="java.lang.String" value="Title" />
+  <custom name="titleAreaUIID" type="java.lang.String" value="myToolbar" />
+</component>

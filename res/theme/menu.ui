@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="menu" cloudDestinationProperty="menu" uiid="new" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+  <component type="Container" name="menuItems" cloudDestinationProperty="menuItems" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Container" name="menuItem1" cloudDestinationProperty="menuItem1" layout="BoxLayout" boxLayoutAxis="X" >
+      <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="menuitem" text="Label" >
+      </component>
+    </component>
+  </component>
+</component>

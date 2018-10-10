@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="eventshome" cloudDestinationProperty="organiser" scrollVisible="true" scrollableX="false" scrollableY="true" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="0" title="Test" >
+  <custom name="titleAreaUIID" type="java.lang.String" value="myToolbar" />
+</component>

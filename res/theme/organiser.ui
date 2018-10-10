@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="organiser" cloudDestinationProperty="organiser" scrollVisible="true" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" title="Organiser un evenement" >
+  <component type="Container" name="planningContainer" cloudDestinationProperty="planningContainer" scrollableX="true" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="X" >
+      <component type="Label" name="delCreneau" cloudDestinationProperty="delCreneau" focusable="true" scrollVisible="false" text="-" >
+      </component>
+      <component type="Label" name="addCreneau" cloudDestinationProperty="addCreneau" focusable="true" scrollVisible="false" text="+" >
+      </component>
+    </component>
+    <component type="Container" name="planningTable" cloudDestinationProperty="planningTable" layout="TableLayout" tableLayoutRows="15" tableLayoutColumns="3" >
+      <component type="Label" name="Label4" cloudDestinationProperty="Label4" text="D&#xe9;part" >
+      </component>
+      <component type="Label" name="Label5" cloudDestinationProperty="Label5" text="Fin" >
+      </component>
+      <component type="Label" name="Label6" cloudDestinationProperty="Label6" text="Description" >
+      </component>
+    </component>
+    <component type="Button" name="submit" cloudDestinationProperty="Button" text="Ajouter" >
+    </component>
+  </component>
+  <component type="Container" name="infosContainer" cloudDestinationProperty="infosContainer" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="myLabel" text="Nombre de places" >
+    </component>
+    <component type="TextField" name="nbPlaces" cloudBoundProperty="text" cloudDestinationProperty="TextField" uiid="inputText" text="" >
+    </component>
+    <component type="Label" name="Label1" cloudDestinationProperty="Label" uiid="myLabel" text="Frais de participation" >
+    </component>
+    <component type="TextField" name="frais" cloudBoundProperty="text" cloudDestinationProperty="TextField" uiid="inputText" text="" >
+    </component>
+    <component type="Label" name="Label2" cloudDestinationProperty="Label" uiid="myLabel" text="Lieu de rassemblement" >
+    </component>
+    <component type="TextField" name="lieuRassemblement" cloudBoundProperty="text" cloudDestinationProperty="TextField" uiid="inputText" text="" >
+    </component>
+    <component type="Label" name="Label3" cloudDestinationProperty="Label" uiid="myLabel" text="Date et heure de d&#xe9;part:" >
+    </component>
+    <component type="Picker" name="dateDepart" cloudDestinationProperty="dateDepart" uiid="Picker" focusable="false" text="Date" >
+    </component>
+    <component type="Label" name="Label21" cloudDestinationProperty="Label" uiid="myLabel" text="Description" >
+    </component>
+    <component type="TextField" name="description" cloudBoundProperty="text" cloudDestinationProperty="TextField" uiid="inputText" text="" rows="2" >
+    </component>
+    <component type="Label" name="Label211" cloudDestinationProperty="Label" uiid="myLabel" text="Reglement" >
+    </component>
+    <component type="TextField" name="reglement" cloudBoundProperty="text" cloudDestinationProperty="TextField" uiid="inputText" text="" rows="2" >
+    </component>
+    <component type="Container" name="radioContainer" cloudDestinationProperty="radioContainer" >
+      <component type="RadioButton" name="campingRadio" cloudDestinationProperty="campingRadio" text="Camping" >
+      </component>
+      <component type="RadioButton" name="randonneeRadio" cloudDestinationProperty="campingRadio" text="Randonnee" >
+      </component>
+    </component>
+    <component type="Container" name="campingContainer" cloudDestinationProperty="campingContainer" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Label" name="Label22" cloudDestinationProperty="Label" uiid="myLabel" text="Nombre de jours" >
+      </component>
+      <component type="TextField" name="nbjours" cloudBoundProperty="text" cloudDestinationProperty="TextField" uiid="inputText" enabled="false" text="" >
+      </component>
+    </component>
+    <component type="Container" name="randonneContainer" cloudDestinationProperty="randonneContainer" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Label" name="Label221" cloudDestinationProperty="Label" uiid="myLabel" text="Distance parcourue" >
+      </component>
+      <component type="TextField" name="distanceParcourue" cloudBoundProperty="text" cloudDestinationProperty="TextField" uiid="inputText" enabled="false" text="" >
+      </component>
+      <component type="Label" name="Label222" cloudDestinationProperty="Label" uiid="myLabel" text="Difficult&#xe9;" >
+      </component>
+      <component type="ComboBox" name="difficulte" cloudDestinationProperty="difficulte" enabled="false" >
+        <stringItem value="Facile" />
+        <stringItem value="Moyenne" />
+        <stringItem value="Difficile" />
+      </component>
+      <component type="Label" name="Label223" cloudDestinationProperty="Label" uiid="myLabel" text="Type" >
+      </component>
+      <component type="TextField" name="type" cloudBoundProperty="text" cloudDestinationProperty="TextField" uiid="inputText" enabled="false" text="" >
+      </component>
+    </component>
+  </component>
+  <component type="Container" name="mapContainer" cloudDestinationProperty="mapContainer" scrollableY="false" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+  </component>
+  <component type="Container" name="nextPrevContainer" cloudDestinationProperty="nextPrevContainer" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+    <component type="Button" name="next" cloudDestinationProperty="next" text="Suivant &gt;&gt;" >
+      <layoutConstraint value="East" />
+    </component>
+    <component type="Button" name="prev" cloudDestinationProperty="prev" text="&lt;&lt; Pr&#xe9;c&#xe9;dent" >
+      <layoutConstraint value="West" />
+    </component>
+  </component>
+  <custom name="titleAreaUIID" type="java.lang.String" value="myToolbar" />
+</component>

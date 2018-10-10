@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="detailPublication" cloudDestinationProperty="detailPublication" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" title="detailPublication" >
+  <component type="ImageViewer" name="ImageViewer" cloudDestinationProperty="ImageViewer" >
+  </component>
+  <component type="Container" name="Container12" cloudDestinationProperty="Container1" >
+    <component type="Label" name="Label" cloudDestinationProperty="Label" text="Title :" >
+    </component>
+    <component type="TextField" name="TextField" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="" >
+    </component>
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" >
+    <component type="Label" name="Label" cloudDestinationProperty="Label" text="Date :" >
+    </component>
+    <component type="TextField" name="TextField" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="" >
+    </component>
+  </component>
+  <component type="Container" name="Container11" cloudDestinationProperty="Container1" >
+    <component type="Label" name="Label" cloudDestinationProperty="Label" text="Contenu" >
+    </component>
+    <component type="TextField" name="TextField" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="" rows="3" >
+    </component>
+  </component>
+  <component type="Container" name="Container2" cloudDestinationProperty="Container2" layout="BoxLayout" boxLayoutAxis="X" >
+    <component type="Button" name="Button1" cloudDestinationProperty="Button1" text="Modifier" >
+    </component>
+    <component type="Button" name="Button2" cloudDestinationProperty="Button" text="Supprimer" >
+    </component>
+  </component>
+  <component type="TextField" name="TextField1" cloudBoundProperty="text" cloudDestinationProperty="TextField1" text="" rows="2" >
+  </component>
+  <component type="Container" name="Container4" cloudDestinationProperty="Container4" >
+    <component type="Button" name="Button2" cloudDestinationProperty="Button2" text="Commenter" >
+    </component>
+  </component>
+  <component type="Container" name="Container5" cloudDestinationProperty="Container5" layout="BoxLayout" boxLayoutAxis="X" >
+    <component type="Button" name="Button4" cloudDestinationProperty="Button4" text="Modifier" >
+    </component>
+    <component type="Button" name="Button3" cloudDestinationProperty="Button3" text="Supprimer" >
+    </component>
+  </component>
+</component>
